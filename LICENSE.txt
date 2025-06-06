@@ -16,7 +16,7 @@ This repository includes both standard data-processing routines common in the fi
 In particular:
 
 - Incorporation of any new ideas, algorithms, or implementations from this codebase into third-party software packages is strictly prohibited without permission.
-- Attribution is required in any use or adaptation of this code, regardless of whether the components used are standard or novel.
+- Attribution is required for any use or adaptation of this code, regardless of whether the components used are standard or novel.
 - Reuse, reproduction, or redistribution of any part of this code or its conceptual structure for inclusion in shared software tools, repositories, or frameworks requires prior approval from the author.
 
 This license **does not permit** commercial use or redistribution.

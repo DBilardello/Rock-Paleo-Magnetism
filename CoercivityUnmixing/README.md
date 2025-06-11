@@ -1,6 +1,6 @@
 # CoercivityUnmixing: Skewed Gaussian Unmixing of Magnetic Coercivity
 
-This repository provides Python code for dynamically fitting **skewed Gaussian components** to **Backfield Demagnetization** and **IRM Acquisition** data. It is designed for applications in **rock and environmental magnetism**, enabling precise modeling of coercivity spectra using both **PDF (Probability Density Function)** and **CDF (Cumulative Distribution Function)** representations.
+This repository provides Python code for dynamically fitting **skewed Gaussian components** to **Backfield Demagnetization** and **IRM Acquisition** data. It is designed for applications in **rock and environmental magnetism**, enabling precise modeling of coercivity spectra using both **PDF (Probability Density Function)** and **CDF (Cumulative Distribution Function)** representations. All code is written entirely from scratch and reflects the author’s design choices and vision for coercivity unmixing workflows. While it builds on widely used ideas, it has greatly benefited from valuable discussions and suggestions by Ramon Egli. No part of the implementation is copied from existing scripts or software.
 
 ---
 

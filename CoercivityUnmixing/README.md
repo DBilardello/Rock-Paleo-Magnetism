@@ -53,7 +53,7 @@ def cdf_model(x, params, n_components):
 The notebook provides a **flexible suite of plots** to visualize fit quality and model behavior:
 
 - **Plot 1:** Full diagnostics, including both CDF and PDF with fits, error bounds, and residuals.
-- **Plots 2–4:** Focused outputs ideal for interpretation and publication—CDF fit, PDF component separation, and combined summaries.
+- **Plots 2–4:** Focused outputs ideal for interpretation and publication– PDF (gradient data)-fit with confidence bounds and CDF (data) residuals, CDF-fit, and combined summary.
 
 These options help balance model evaluation, parameter reporting, and visual clarity depending on the use case.
 

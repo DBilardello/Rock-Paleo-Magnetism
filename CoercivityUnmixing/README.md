@@ -25,15 +25,6 @@ def skewed_gaussian_cdf(x, amplitude, center, sigma, skew):
     return amplitude * (0.5 * erf_term_cdf - owen_term)
 ```
 
-Both are used within model functions to sum across components:
-```python
-def model(x, params, n_components):
-    return sum(skewed_gaussian(x, *params[i*4:i*4+4]) for i in range(n_components))
-
-def cdf_model(x, params, n_components):
-    return sum(skewed_gaussian_cdf(x, *params[i*4:i*4+4]) for i in range(n_components))
-```
-
 ---
 
 ## Key Features

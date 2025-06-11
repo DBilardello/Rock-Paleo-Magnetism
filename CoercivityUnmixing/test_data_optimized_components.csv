@@ -1,0 +1,5 @@
+Component,Amplitude,Center (logB),Center (mT),Mode (logB),Mode (mT),Sigma,Skew
+Component 1,0.00011711,0.36,2.29,0.10,1.26,0.50,2.48
+Component 2,0.00305985,1.68,47.86,1.40,25.12,0.56,2.33
+Component 3,0.00079928,2.16,144.54,2.02,104.71,0.27,1.22
+Component 4,0.00052518,2.28,190.55,2.57,371.54,0.55,-1.14

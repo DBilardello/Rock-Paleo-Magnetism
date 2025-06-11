@@ -2,7 +2,7 @@
 
 **Tools for processing magnetic data for rock magnetism and paleomagnetism**
 
-This repository provides open and reproducible Python code for the analysis and visualization of magnetic data used in rock magnetism and paleomagnetism. It includes tools for handling hysteresis loops, remanence measurements, susceptibility measurements, and more.
+This repository provides open and reproducible Python code for the analysis and visualization of magnetic data used in rock magnetism and paleomagnetism.
 
 ## Citation
 
@@ -24,11 +24,19 @@ This code, and the original ideas contained within it, are made available for ac
 
 If you are interested in including any part of this work in a software package, please contact the author to discuss licensing.
 
-## Contributions
+## Suggestions and Feedback  
 
-Suggestions, improvements, and pull requests are welcome. Please open an issue to start a discussion before submitting major changes.
+You are welcome to use this code for your own academic work and to report bugs or make suggestions.  
+If you have feedback or feature requests, feel free to open an issue.
 
 ## Contact
 
 Dario Bilardello  
 rockpaleomagnetism@gmail.com
+
+## Acknowledgements
+
+Special thanks to the following individuals for their support and contributions:
+- Michael Volk and Plinio Jaqueto — for their early help, discussions and support in getting started with Python coding
+- Yiming Zhang — for introducing me to existing code packages and guidance in navigating GitHub workflows and repository setup
+- Ramon Egli — for valuable discussions and suggestions on magnetic unmixing, model functions, and output presentations

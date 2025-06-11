@@ -29,9 +29,11 @@ def skewed_gaussian_cdf(x, amplitude, center, sigma, skew):
 
 ## Key Features
 
-- **Interactive parameter control** via sliders for amplitude, center, width, and skewness.
+- Self-contained **Jupyter Notebook** with embedded Markdown instructions, model explanations, and clearly annotated code blocks for guided use.
+- **Interactive parameter control** via sliders for component parameter input.
 - **Optimization** and **Monte Carlo uncertainty estimation** performed on the PDF for accurate component separation.
-- **Amplitude rescaling** to apply optimized PDF parameters to the smoother CDF.
+- **Optimization performance test** included to evaluate fit convergence, stability, and residual behavior across runs.
+- **Amplitude rescaling** to apply optimized PDF parameters to the original CDF data.
 - **Intersection detection** between adjacent PDF components, with field values reported for component-based metrics (e.g., **S-ratios**, **HIRM**, **goethite test**).
 - **Component summary** including mode, center, amplitude, and percentage contribution.
 - **Residual analysis** for both PDF and CDF domains.

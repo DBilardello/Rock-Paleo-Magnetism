@@ -58,6 +58,8 @@ If you use this code, or adapt any part of it for your research or publications,
 
 > **Bilardello, D. (2025).** Rock-Paleo-Magnetism: Tools for processing magnetic data in paleomagnetism and rock magnetism, *GitHub*, https://github.com/DBilardello/Rock-Paleo-Magnetism
 
+This repository does not accept external code contributions. Please do not submit pull requests.
+
 **Please Note:**
 
 - Incorporation of any **new ideas, algorithms, or implementations** from this code into third-party software packages is **strictly prohibited without permission**.

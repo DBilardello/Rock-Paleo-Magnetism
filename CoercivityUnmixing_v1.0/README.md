@@ -34,7 +34,7 @@ def skewed_gaussian_cdf(x, amplitude, center, sigma, skew):
 - **Optimization** and **Monte Carlo uncertainty estimation** performed on the PDF for accurate component separation.
 - **Optimization performance test** included to evaluate fit convergence, stability, and residual behavior across runs.
 - **Amplitude rescaling** to apply optimized PDF parameters to the original CDF data.
-- **Intersection detection** between adjacent PDF components, with field values reported for component-based metrics (e.g., **S-ratios**, **HIRM**, **goethite test**).
+- **Intersection detection** between adjacent PDF components, with field values reported for sample-specific component-based metrics (e.g., **S-ratios**, **HIRM**, **goethite test**).
 - **Component summary** including mode, center, amplitude, and percentage contribution.
 - **Residual analysis** for both PDF and CDF domains.
 - **Dynamic plot generation** offering multiple outputs for diagnostics and publication.

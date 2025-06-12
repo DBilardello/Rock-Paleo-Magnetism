@@ -16,8 +16,8 @@ The magnetic analysis included:
 - Magnetic hysteresis behavior at room and cryogenic temperatures
 - Grain size modeling based on superparamagnetic/ferromagnetic transition thresholds
 
-Using these tools, I demonstrated that the nanocrystals formed during high-T Raman experiments were consistent with superparamagnetic magnetic particles with characteristic diameters near 20 nm. The magnetic results reinforced the Raman findings and provided a complementary constraint on crystallite evolution during thermal treatment.
-**Note: LT susceptibility data was acquired by me on a Quantum Designs MPMS-XL system- the code was written for this instrument's data format**
+Using these tools, I demonstrated that the nanocrystals formed during high-T Raman experiments were consistent with superparamagnetic magnetic particles with characteristic diameters ~ 20 nm. The magnetic results reinforced the Raman findings and provided a complementary constraint on crystallite evolution during thermal treatment.
+**Note: LT susceptibility data was acquired by me on a Quantum Designs (San Diego, CA) MPMS-XL system- the code was written for this instrument's data format**
 
 ## Methods & Tools
 

@@ -56,7 +56,7 @@ These options help balance model evaluation, parameter reporting, and visual cla
 
 If you use this code, or adapt any part of it for your research or publications, please cite it as:
 
-> **Bilardello, D. (2025).** CoercivityUnmixing: Skewed Gaussian Unmixing of Magnetic Coercivity, *GitHub*, DOI: 10.13140/RG.2.2.10602.43208, https://github.com/DBilardello/Rock-Paleo-Magnetism
+> **Bilardello, D. (2025).** CoercivityUnmixing: Skewed Gaussian Unmixing of Magnetic Coercivity, *GitHub*, DOI: 10.13140/RG.2.2.10602.43208, https://github.com/DBilardello/Rock-Paleo-Magnetism/tree/main/CoercivityUnmixing_v1.0
 
 This repository does not accept external code contributions. Please do not submit pull requests.
 

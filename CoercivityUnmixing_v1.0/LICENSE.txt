@@ -1,0 +1,29 @@
+Custom License for CoercivityUnmixing: Skewed Gaussian Unmixing of Magnetic Coercivity 
+Copyright © 2025 Dario Bilardello
+
+Permission is granted for academic and research use of the code in this repository, including modification and citation, provided that proper attribution is maintained.
+
+If you use this code, or adapt any part of it for your research or publications, please cite it as follows:
+
+Bilardello, D. (2025). CoercivityUnmixing: Skewed Gaussian Unmixing of Magnetic Coercivity, *GitHub*, DOI: 10.13140/RG.2.2.10602.43208, https://github.com/DBilardello/Rock-Paleo-Magnetism/tree/main/CoercivityUnmixing_v1.0
+
+
+---
+
+This repository includes both standard data-processing routines common in the fields of rock magnetism and paleomagnetism, as well as new or original methods, algorithms, and implementations developed by the author. These novel contributions are protected under copyright and may not be reproduced, adapted, or redistributed in any software library, toolkit, or codebase—whether open-source or commercial—without the explicit, written consent of the author.
+
+In particular:
+
+- Incorporation of any new ideas, algorithms, or implementations from this codebase into third-party software packages is strictly prohibited without permission.
+- Attribution is required for any use or adaptation of this code, regardless of whether the components used are standard or novel.
+- Reuse, reproduction, or redistribution of any part of this code or its conceptual structure for inclusion in shared software tools, repositories, or frameworks requires prior approval from the author.
+
+This license **does not permit** commercial use or redistribution.
+
+If you are unsure whether your intended use falls under these terms, or wish to request permission, please contact the author directly.
+
+THE CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+Author Contact:  
+Dario Bilardello  
+rockpaleomagnetism@gmail.com

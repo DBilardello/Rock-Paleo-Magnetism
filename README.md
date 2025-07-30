@@ -8,7 +8,7 @@ This repository provides open and reproducible Python code for the analysis and 
 
 If you use this code or adapt any part of it for your research or publications, please cite it appropriately:
 
-Bilardello, D. (2025). Rock-Paleo-Magnetism: Tools for processing magnetic data in paleomagnetism and rock magnetism, *GitHub*, https://github.com/yourusername/Rock-Paleo-Magnetism
+Bilardello, D. (2025). Rock-Paleo-Magnetism: Tools for processing magnetic data in paleomagnetism and rock magnetism, *GitHub*, https://github.com/DBilardello/Rock-Paleo-Magnetism
 
 A formal DOI will be provided soon.
 

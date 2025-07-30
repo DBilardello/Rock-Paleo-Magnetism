@@ -40,4 +40,4 @@ Special thanks to the following individuals for their support and contributions:
 - **Michael Volk** and **Plinio Jaqueto —** for their early help, discussions and support in getting started with Python coding
 - **Yiming Zhang —** for introducing me to existing code packages and guidance in navigating GitHub workflows and repository setup
 - **Ramon Egli —** for valuable discussions and suggestions on magnetic unmixing, model functions, and output presentations
-- **Claudio Robustelli-Test -** for tirelessly testing magnetic unmixing code on different datasets / data types, feedback, and valuable suggestions
+- **Claudio Robustelli-Test -** for tirelessly testing the magnetic unmixing code on different datasets / data types, providing feedback and valuable suggestions

@@ -4,35 +4,75 @@ This repository provides Python code for dynamically fitting **skewed Gaussian c
 
 ---
 
-## What’s New in v2.0
+## Current Version
+**v2.1** — Monte Carlo–consistent coercivity unmixing with PDF–CDF joint optimization.
+
+---
+
+## Version History
+
+### v2.1 — Monte Carlo–Consistent Parameter & Residual Definitions
+
+Version 2.1 refines the interpretation and reporting of fit results by ensuring
+**full consistency between optimized parameters, Monte Carlo uncertainty analysis,
+residual calculations, and reported magnetic metrics**.
+
+Key methodological improvements include:
+
+- **Monte Carlo–based residuals**
+  - PDF and CDF residuals are now calculated relative to the *Monte Carlo mean fits*,
+    not the single deterministic optimized solution.
+  - This ensures that residuals correspond directly to the plotted confidence envelopes
+    and represent deviations from the statistically most probable model.
+
+- **Monte Carlo–consistent derived parameters**
+  - Final reported component properties (modes, intersections, percent contributions)
+    are computed *after* Monte Carlo simulations, using the Monte Carlo mean component curves.
+  - This avoids mixing deterministic best-fit quantities with Monte Carlo uncertainty estimates.
+
+- **Separation of optimization vs. uncertainty analysis**
+  - Deterministic optimization is used solely to find a stable starting solution.
+  - All interpretive quantities used for reporting and visualization are derived from
+    Monte Carlo results, aligning the workflow with standard uncertainty propagation practices.
+
+- **Improved internal consistency**
+  - Plotting, residual analysis, legend labels, and CSV summaries now refer to the same
+    Monte Carlo–derived quantities.
+  - This eliminates subtle ambiguities present in earlier versions where optimized and
+    Monte Carlo quantities could diverge.
+
+These changes do not alter the underlying skewed Gaussian model, but they significantly
+improve the statistical clarity and interpretability of the results.
+
+### v2.0 — Iterative PDF–CDF Optimization Framework
 
 Version 2.0 is a major rewrite of the original v1.0 code, introducing new optimization logic, streamlined workflows, and improved outputs.
 
-### Iterative PDF–CDF Optimization
-- Adds a loop alternating between PDF and CDF fits until residuals stabilize.
-- Ensures the same parameter set fits both PDF and CDF simultaneously for consistency.
-- Removes the earlier “optimization performance test” for improved speed while maintaining cost reporting (misfit between model and data).
+- **Iterative PDF–CDF Optimization**
+  - Adds a loop alternating between PDF and CDF fits until residuals stabilize.
+  - Ensures the same parameter set fits both PDF and CDF simultaneously for consistency.
+  - Removes the earlier “optimization performance test” for improved speed while maintaining cost reporting (misfit between model and data).
 
-### Cleaner Monte Carlo Workflow
-- Monte Carlo uncertainty estimation is now performed once after final convergence, reducing runtime and smoothing results.
-- Confidence intervals are calculated consistently for both PDF and CDF fits.
+- **Cleaner Monte Carlo Workflow**
+  - Monte Carlo uncertainty estimation is now performed once after final convergence, reducing runtime and smoothing results.
+  - Confidence intervals are calculated consistently for both PDF and CDF fits.
 
-### Refined Plotting & Output
-- Multi-panel figures (PDF + CDF + residuals) optimized for diagnostics and publication, with user-selectable file formats.
-- Optimized CSV summary of component parameters (mode, center, amplitude, sigma, skew, and % contribution).
+- **Refined Plotting & Output**
+  - Multi-panel figures (PDF + CDF + residuals) optimized for diagnostics and publication, with user-selectable file formats.
+  - Optimized CSV summary of component parameters (mode, center, amplitude, sigma, skew, and % contribution).
 
-### More Efficient Code Organization
+- **More Efficient Code Organization**
+  - Package version printout added to troubleshoot version-related errors.
+  - Clear separation between cells requiring user input and those to “run as is.”
+  - Removed the need to comment/uncomment blocks for data type selection (backfield vs. IRM).
+  - All user-defined parameters (file name, data type, figure format, number of components, number of Monte Carlo simulations) are clearly marked before the relevant code blocks, allowing users to modify them without rerunning the entire notebook.
+  - Optional memory management cell (`plt.close('all')`) to prevent Jupyter kernel overload.
 
-- Package version printout added to troubleshoot version-related errors.
-- Clear separation between cells requiring user input and those to “run as is.”
-- Removed the need to comment/uncomment blocks for data type selection (backfield vs. IRM).
-- All user-defined parameters (file name, data type, figure format, number of components, number of Monte Carlo simulations) are clearly marked before the relevant code blocks, allowing users to modify them without rerunning the entire notebook.
-- Optional memory management cell (`plt.close('all')`) to prevent Jupyter kernel overload.
-
-### Markdown Explanations Throughout
+#### Markdown Explanations Throughout
 - Embedded math formulas, usage notes, and code explanations make the notebook fully self-contained and instructional.
 - PDF and CDF models now fully documented with equations for transparency.
 
+### v1.0 — Initial Skewed Gaussian Unmixing Prototype
 ---
 
 ## Features (All Versions)

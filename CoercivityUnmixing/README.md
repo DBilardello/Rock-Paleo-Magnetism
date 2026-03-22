@@ -119,7 +119,7 @@ These options balance model evaluation, parameter reporting, and visual clarity 
 ## Citation & Licensing
 If you use this code, or adapt any part of it for your research or publications, please cite it as:
 
-> **Bilardello, D. (2025).** CoercivityUnmixing: Skewed Gaussian Unmixing of Magnetic Coercivity, DOI: 10.5281/zenodo.19170169
+> **Bilardello, D. (2025).** CoercivityUnmixing: Skewed Gaussian Unmixing of Magnetic Coercivity, https://doi.org/10.5281/zenodo.19170169
 
 This repository does not accept external code contributions. Please do not submit pull requests.
 

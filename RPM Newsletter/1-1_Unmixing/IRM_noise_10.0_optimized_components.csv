@@ -1,0 +1,4 @@
+Component,Amplitude,Center (log mT),Center (mT),Mode (log mT),Mode (mT),Sigma,Skew,Percent Area (%)
+Component 1,0.97633998,1.686,48.5,1.674,47.2,0.25,0.03,100.0
+
+Intersection #,log10(mT),mT
